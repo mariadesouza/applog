@@ -4,14 +4,21 @@ package to support leveled logs in Go
 
 ## Methods
 
-func Error(a ...interface{})
-func Errorf(format string, a ...interface{})
-func Info(a ...interface{})
-func Infof(format string, a ...interface{})
-func Trace(a ...interface{})
-func Tracef(format string, a ...interface{})
-func Warn(a ...interface{})
-func Warnf(format string, a ...interface{})
+-  Error(a ...interface{})
+
+-  Errorf(format string, a ...interface{})
+
+-  Info(a ...interface{})
+
+-  Infof(format string, a ...interface{})
+
+-  Trace(a ...interface{})
+
+-  Tracef(format string, a ...interface{})
+
+-  Warn(a ...interface{})
+
+-  Warnf(format string, a ...interface{})
 
 ## Sample
 
